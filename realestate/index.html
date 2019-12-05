@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,300i,400,400i,500,500i&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css"
+    integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Montserrat:300,400,700'>
+
+
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/login_block.css" />
+  <link rel="stylesheet" href="css/input_block.css" />
+  <link rel="stylesheet" href="css/media-queries.css" />
+
+
+</head>
+
+<body>
+  <!-- Header top Start -->
+
+  <header class="header">
+    <div class="header__section section">
+      <div class="header__logo-block">
+        <img class="logo-img" src="img/Logo.png" alt="">
+        <span class="logo-text">
+          Realestate Company
+        </span>
+        <p class="logo-subtext">Lorem Ipsum is simply dummy text</p>
+      </div>
+      <div class="header__number-phone">
+        <span>
+          Call us: (214) 227-7669
+        </span>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Header top end -->
+
+  <!-- Header menu Start -->
+
+  <div class="header-menu">
+      <div class="header-menu__section section">
+        <div class="header-menu__list">
+          <ul class="header-menu__item-wrap">
+            <a class="item" href="home.html"><li class="menu-item">Home</li></a>
+            <a class="item" href="index.html"><li class="menu-item">Our Story</li></a>
+            <a class="item" href="home.html"><li class="menu-item">Tenant</li></a>
+            <a class="item" href="home.html"><li class="menu-item">Owner</li></a>
+            <a class="item" href="home.html"><li class="menu-item">Contact us</li></a>
+          </ul>
+        </div>
+        <div class="header-menu__login-block">
+          <a class="menu-btn" href="">Sign in</a>
+          <span class="separation">/</span>
+          <a class="menu-btn" href="">Sign up</a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Header menu end -->
+
+  <!-- input block start -->
+
+  <div class="input-block">
+    <div class="input-block__section section">
+      <div class="input-block__office-block" id="bootstrap-overrides">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="content-img">
+                <img src="img/office.png" alt="">
+                <div class="text-block">
+                  <span class="img-text">
+                    Lorem Ipsum is simply dummy text of
+                  </span>
+                  <p class="img-subtext">
+                    We work with investors to make managing your investments easy!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="content-img">
+                <img src="img/office.png" alt="">
+                <div class="text-block">
+                  <span class="img-text">
+                    Lorem Ipsum is simply dummy text of
+                  </span>
+                  <p class="img-subtext">
+                    We work with investors to make managing your investments easy!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="content-img">
+                <img src="img/office.png" alt="">
+                <div class="text-block">
+                  <span class="img-text">
+                    Lorem Ipsum is simply dummy text of
+                  </span>
+                  <p class="img-subtext">
+                    We work with investors to make managing your investments easy!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="icon-prev" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="icon-next" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="input-wrap" id="bootstrap-overrides-tabs">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active btn-tenants" id="home-tab" data-toggle="tab" href="#home" role="tab"
+              aria-controls="Tenants" aria-selected="true">Tenants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-oweners" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+              aria-controls="Oweners" aria-selected="false">Oweners</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane active bootstrap-custom-bg-transparent" id="home" role="tabpanel"
+            aria-labelledby="home-tab">
+            <span class="subtext-top">Adress, Suburbs, Postcodes, or Regions</span>
+            <form class="" action="#">
+              <input class="info-text" type="text" placeholder="Example: Wichita Falls, Texas 76301">
+              <div class="radio-block">
+                <label class="wrap-check">
+                  <input type="checkbox">
+                  <span class="wrap-box"></span>
+                  <span class="subtext-bottom">include surrounding suburbs</span>
+                </label>
+                <div class="wrap-number">
+                  <div class="">
+                    <span class="type-number">
+                      Property Type:
+                    </span>
+                    <div class="box">
+                      <select>
+                        <option value="0">Select one</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div>
+                    <span class="bedrooms-number">
+                      Bedrooms:
+                    </span>
+                    <div class="box move-box ">
+                      <select>
+                        <option value="0">Select one</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <input class="btn-search" type="submit" value="Search" />
+              </div>
+            </form>
+          </div>
+          <div class="tab-pane bootstrap-custom-bg-transparent" id="profile" role="tabpanel"
+            aria-labelledby="profile-tab">...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- input block End -->
+
+  <!-- Home Start -->
+
+  <div class="main-home">
+    <div class="main-home__section section">
+      <div class="main-home__wrap-home">
+        <div class="content-home">
+          <img src="img/home.png" alt="">
+          <span class="subject-home">Buy a home</span>
+        </div>
+        <span class="subtext-home">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut sed voluptas corporis mollitia neque sequi
+          doloribus dolore odit quia laborum molestias, voluptatem similique dolorum?
+        </span>
+      </div>
+      <div class="main-home__wrap-home">
+        <div class="content-home">
+          <img src="img/home.png" alt="">
+          <span class="subject-home">Sell a home</span>
+        </div>
+        <span class="subtext-home">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut sed voluptas corporis mollitia neque sequi
+          doloribus dolore odit quia laborum molestias, voluptatem similique dolorum?
+        </span>
+      </div>
+      <div class="main-home__wrap-home">
+        <div class="content-home">
+          <img src="img/home.png" alt="">
+          <span class="subject-home">Rent a home</span>
+        </div>
+        <span class="subtext-home">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut sed voluptas corporis mollitia neque sequi
+          doloribus dolore odit quia laborum molestias, voluptatem similique dolorum?
+        </span>
+      </div>
+    </div>
+  </div>
+  <!-- Home End -->
+
+
+  <!-- Image block start -->
+
+  <div class="image-block">
+    <div class="image-block__section section">
+      <div class="image-block__body-wrap">
+        <div class="image-block__image-wrap">
+          <img class="hall" src="img/hall1.png" alt="">
+          <div class="sub-block">
+            <div class="sub-block-text">
+              <span class="subtext-one">
+                4605 Bayonne Court
+              </span>
+              <span class="subtext-two">
+                Arlington, TX 76016
+              </span>
+            </div>
+            <img class="magnifier" src="img/magnifier.png" alt="">
+          </div>
+        </div>
+        <div class="image-block__image-wrap">
+          <img class="hall" src="img/hall1.png" alt="">
+          <div class="sub-block">
+            <div class="sub-block-text">
+              <span class="subtext-one">
+                4605 Bayonne Court
+              </span>
+              <span class="subtext-two">
+                Arlington, TX 76016
+              </span>
+            </div>
+            <img class="magnifier" src="img/magnifier.png" alt="">
+          </div>
+        </div>
+        <div class="image-block__image-wrap">
+          <img class="hall" src="img/hall1.png" alt="">
+          <div class="sub-block">
+            <div class="sub-block-text">
+              <span class="subtext-one">
+                4605 Bayonne Court
+              </span>
+              <span class="subtext-two">
+                Arlington, TX 76016
+              </span>
+            </div>
+            <img class="magnifier" src="img/magnifier.png" alt="">
+          </div>
+        </div>
+        <div class="image-block__image-wrap">
+          <img class="hall" src="img/hall1.png" alt="">
+          <div class="sub-block">
+            <div class="sub-block-text">
+              <span class="subtext-one">
+                4605 Bayonne Court
+              </span>
+              <span class="subtext-two">
+                Arlington, TX 76016
+              </span>
+            </div>
+            <img class="magnifier" src="img/magnifier.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="image-block__body-wrap indentation">
+        <div class="image-block__image-wrap">
+          <img class="hall" src="img/hall1.png" alt="">
+          <div class="sub-block">
+            <div class="sub-block-text">
+              <span class="subtext-one">
+                4605 Bayonne Court
+              </span>
+              <span class="subtext-two">
+                Arlington, TX 76016
+              </span>
+            </div>
+            <img class="magnifier" src="img/magnifier.png" alt="">
+          </div>
+        </div>
+        <div class="image-block__image-wrap">
+          <img class="hall" src="img/hall1.png" alt="">
+          <div class="sub-block">
+            <div class="sub-block-text">
+              <span class="subtext-one">
+                4605 Bayonne Court
+              </span>
+              <span class="subtext-two">
+                Arlington, TX 76016
+              </span>
+            </div>
+            <img class="magnifier" src="img/magnifier.png" alt="">
+          </div>
+        </div>
+        <div class="image-block__image-wrap">
+          <img class="hall" src="img/hall1.png" alt="">
+          <div class="sub-block">
+            <div class="sub-block-text">
+              <span class="subtext-one">
+                4605 Bayonne Court
+              </span>
+              <span class="subtext-two">
+                Arlington, TX 76016
+              </span>
+            </div>
+            <img class="magnifier" src="img/magnifier.png" alt="">
+          </div>
+        </div>
+        <div class="image-block__image-wrap">
+          <img class="hall" src="img/hall1.png" alt="">
+          <div class="sub-block">
+            <div class="sub-block-text">
+              <span class="subtext-one">
+                4605 Bayonne Court
+              </span>
+              <span class="subtext-two">
+                Arlington, TX 76016
+              </span>
+            </div>
+            <img class="magnifier" src="img/magnifier.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Image block end -->
+
+  <!-- Login block start -->
+
+  <div class="main-login">
+    <div class="main-login__section section">
+      <div class="main-login__login-section">
+        <span class="login-text">Member login</span>
+        <form class="login-form" action="">
+          <input class="login-name" type="name" placeholder="User name">
+          <input class="login-password" type="password" placeholder="Password">
+          <input class="btn-login" type="submit" value="Login">
+        </form>
+      </div>
+      <div class="main-login__mail-section">
+        <span class="mail-text">Subscribe to our weekly newsletter</span>
+        <form class="mail-form" action="">
+          <input class="mail-item" type="mail" placeholder="email address">
+          <input class="btn-mail" type="submit" value="Subscribe">
+        </form>
+      </div>
+      <div class="main-login__sign-up-section">
+        <span class="signup-text">
+          Not a member yet
+        </span>
+        <span class="signup-btn-text">Signup now</span>
+        <a class="link-wrapper" href="">
+          <div class="tape">
+
+          </div>
+        </a>
+      </div>
+      <div class="main-login__social-network-section">
+        <a class="network-link" href=""><img class="facebook" src="img/facebook.png" alt=""></a>
+        <a class="network-link" href=""><img class="twitter" src="img/twitter.png" alt=""></a>
+        <a class="network-link" href=""><img class="google" src="img/google.png" alt=""></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Login block end -->
+
+  <!-- Footer start -->
+
+  <div class="main-footer">
+    <div class="main-footer__section section">
+      <div class="main-footer__block-headline">
+        <span class="text-headline">
+          About us
+        </span>
+        <ul class="block-list">
+          <a class="wrap-link" href="">
+            <li class="list-item">Abot us</li>
+          </a>
+          <a class="wrap-link" href="">
+            <li class="list-item">Why us</li>
+          </a>
+          <a class="wrap-link" href="">
+            <li class="list-item">Customer stories</li>
+          </a>
+          <a class="wrap-link" href="">
+            <li class="list-item">Press resources</li>
+          </a>
+          <a class="wrap-link" href="">
+            <li class="list-item">Press releases</li>
+          </a>
+          <a class="wrap-link" href="">
+            <li class="list-item">Contact us</li>
+          </a>
+        </ul>
+      </div>
+      <div class="main-footer__block-headline">
+        <span class="text-headline">
+          Proparties
+        </span>
+        <ul class="block-list">
+          <a class="wrap-link" href="">
+            <li class="list-item">Rent a home</li>
+          </a>
+          <a class="wrap-link" href="">
+            <li class="list-item">Lease a home</li>
+          </a>
+          <a class="wrap-link" href="">
+            <li class="list-item">Buy a home</li>
+          </a>
+          <a class="wrap-link" href="">
+            <li class="list-item">Sell a home</li>
+          </a>
+          <a class="wrap-link" href="">
+            <li class="list-item">Ask device</li>
+          </a>
+        </ul>
+      </div>
+      <div class="main-footer__costamer-block">
+        <span class="text-headline">
+          Costamer Testimonials
+        </span>
+        <div class="costamer-wrap-carousel" id="bootstrap-overrides-costamer">
+          <div id="carousel-example" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example" data-slide-to="1"></li>
+              <li data-target="#carousel-example" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <span class="costamer-text">
+                  Lorem opium is simply dummy text often printing and
+                  typesetting industry. Lorem lpsum has been the industr
+                  starldard dummy text ever since the 1500s,
+                  when an unknown printer took a
+                  <p class="costamer-subtext"> Lorem lpsum is simplyjs
+                    Owner, Locum lpsumjg</p>
+
+                </span>
+              </div>
+              <div class="carousel-item">
+                <span class="costamer-text">
+                  Lorem opium is simply dummy text often printing and
+                  typesetting industry. Lorem lpsum has been the industr
+                  starldard dummy text ever since the 1500s,
+                  when an unknown printer took a
+                  <p class="costamer-subtext"> Lorem lpsum is simplyjs
+                    Owner, Locum lpsumjg</p>
+                </span>
+              </div>
+              <div class="carousel-item">
+                <span class="costamer-text">
+                  Lorem opium is simply dummy text often printing and
+                  typesetting industry. Lorem lpsum has been the industr
+                  starldard dummy text ever since the 1500s,
+                  when an unknown printer took a
+                  <p class="costamer-subtext"> Lorem lpsum is simplyjs
+                    Owner, Locum lpsumjg</p>
+                </span>
+              </div>
+            </div>
+            <a class="left carousel-control" href="#carousel-example" role="button" data-slide="prev">
+              <span class="icon-prev" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example" role="button" data-slide="next">
+              <span class="icon-next" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="main-footer__small-logo-block">
+        <img class="small-logo" src="img/small-logo.png" alt="">
+        <span class="footer-logo-text">
+          Realestate Company
+        </span>
+        <p class="footer-logo-subtext">&#169; css autor.com</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer end -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"
+    integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"
+    integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js"
+    integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+</body>
+
+</html>

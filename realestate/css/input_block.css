@@ -1,0 +1,61 @@
+/* font-family: "adobe"; */
+@font-face {
+  font-family: "arial";
+  src: url("../fonts/Arial.ttf") format("embedded-opentype"), url("../fonts/Arial.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+
+/* font-family: "ArialBold"; */
+@font-face {
+  font-family: "ArialBold";
+  src: url("../fonts/ArialBold/ArialBold.eot");
+  src: url("../fonts/ArialBold/ArialBold.eot?#iefix") format("embedded-opentype"), url("../fonts/ArialBold/ArialBold.woff") format("woff"), url("../fonts/ArialBold/ArialBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/* font-family: "MyriadProRegular"; */
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/* font-family: "adobe"; */
+@font-face {
+  font-family: "adobe";
+  src: url("../fonts/Adobe.ttf") format("embedded-opentype"), url("../fonts/Adobe.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+
+.input-block {
+  background: linear-gradient(180deg, #2e6b91 41%, #3786b7 81%); }
+  .input-block__section {
+    display: flex;
+    justify-content: space-between; }
+  .input-block__office-block {
+    max-width: 510px;
+    padding-top: 19px;
+    padding-bottom: 34px;
+    color: white; }
+    .input-block__office-block .content-img {
+      height: 320px;
+      background-color: #1a425a;
+      border: 10px solid #f2e8e8;
+      box-sizing: content-box; }
+      .input-block__office-block .content-img img {
+        border-bottom: 1px solid #3686b8; }
+    .input-block__office-block .text-block {
+      margin-left: 26px;
+      padding-top: 5px;
+      font-family: "Arial"; }
+      .input-block__office-block .text-block .img-text {
+        font-size: 22px; }
+      .input-block__office-block .text-block .img-subtext {
+        font-size: 14px; }
+
+.input-wrap {
+  padding-top: 19px;
+  content: '\1F582';
+  display: inline-block;
+  text-align: center; }

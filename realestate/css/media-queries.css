@@ -1,0 +1,105 @@
+/* font-family: "adobe"; */
+@font-face {
+  font-family: "arial";
+  src: url("../fonts/Arial.ttf") format("embedded-opentype"), url("../fonts/Arial.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+
+/* font-family: "ArialBold"; */
+@font-face {
+  font-family: "ArialBold";
+  src: url("../fonts/ArialBold/ArialBold.eot");
+  src: url("../fonts/ArialBold/ArialBold.eot?#iefix") format("embedded-opentype"), url("../fonts/ArialBold/ArialBold.woff") format("woff"), url("../fonts/ArialBold/ArialBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/* font-family: "MyriadProRegular"; */
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/* font-family: "adobe"; */
+@font-face {
+  font-family: "adobe";
+  src: url("../fonts/Adobe.ttf") format("embedded-opentype"), url("../fonts/Adobe.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+
+@media only screen and (max-width: 1000px) {
+  .header__logo-block {
+    margin-left: 15px; }
+  .header__number-phone {
+    margin-right: 15px; }
+  .header-menu__login-block {
+    margin-right: 15px; }
+  .input-block__section {
+    justify-content: center;
+    display: grid; }
+  .input-wrap {
+    margin-left: 50px; }
+  .main-home__section {
+    justify-content: center;
+    flex-wrap: wrap; }
+  .main-home__wrap-home {
+    margin-bottom: 20px; }
+  .image-block__body-wrap {
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  .image-block__image-wrap {
+    margin-top: 10px; }
+  .main-login__section {
+    flex-direction: column;
+    align-items: center; }
+  .main-login__login-section {
+    margin-right: 0px; }
+  .main-login__mail-section {
+    margin-top: 11px; }
+  .main-login__social-network-section {
+    display: block;
+    text-align: center; }
+  .main-footer__section {
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  .main-footer__small-logo-block {
+    display: none; }
+  .main-staff__section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  .main-staff__staff-container {
+    grid-template-columns: repeat(auto-fill, 222px);
+    width: 970px;
+    justify-content: center; } }
+
+@media only screen and (max-width: 680px) {
+  .header__section {
+    display: block; }
+  .header__logo-block {
+    width: 284px;
+    margin: 0 auto; }
+  .header__number-phone {
+    text-align: center;
+    margin-top: 20px; }
+  .header-menu {
+    height: 113px; }
+    .header-menu__section {
+      display: block; }
+    .header-menu__list {
+      padding-top: 10px;
+      margin-top: 0;
+      display: flex;
+      justify-content: center; }
+    .header-menu__item-wrap .item .menu-item {
+      width: 78px; }
+      .header-menu__item-wrap .item .menu-item:hover {
+        width: 78px;
+        height: 33px; }
+        .header-menu__item-wrap .item .menu-item:hover:after {
+          width: 90px; }
+        .header-menu__item-wrap .item .menu-item:hover:before {
+          width: 80px; }
+    .header-menu__login-block {
+      text-align: center; } }

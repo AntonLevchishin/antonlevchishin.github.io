@@ -1,0 +1,56 @@
+@import "fonts-color";
+
+// <!-- input block start -->
+
+.input-block {
+    background: linear-gradient(180deg, rgba(46,107,145,1) 41%, rgba(55,134,183,1) 81%);
+
+    &__section {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__office-block {
+      max-width: 510px;
+      padding-top: 19px;
+      padding-bottom: 34px;
+      color: $main-color-text;
+    
+      .content-img {
+        height: 320px;
+        background-color: #1a425a;
+        border: 10px solid #f2e8e8;
+        box-sizing: content-box;
+    
+        img {
+          border-bottom: 1px solid #3686b8;
+        }
+      }
+      .text-block {
+        margin-left: 26px;
+        padding-top: 5px;
+        font-family: "Arial";
+    
+        .img-text {
+          font-size: 22px;
+        }
+    
+        .img-subtext {
+          font-size: $small-size;
+        }
+      }
+    }
+  }
+
+
+
+
+.input-wrap {
+  padding-top: 19px;
+  content: '\1F582';
+  display:inline-block;
+  text-align: center;
+}  
+  
+  
+  // <!-- input block End -->

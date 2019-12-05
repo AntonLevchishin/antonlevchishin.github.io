@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1"
+  },
+  "scripts": {
+    "scss": "node-sass -w scss -o css"
+  }
+}
