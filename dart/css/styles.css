@@ -87,7 +87,8 @@
     color: white;
     text-decoration: none;
     background: #224264;
-    border: 1px solid white; }
+    border: 1px solid white;
+    border: none; }
 
 .white-btn {
   color: #061e37;
@@ -104,7 +105,8 @@
     color: #061e37;
     text-decoration: none;
     background: rgba(255, 255, 255, 0.856);
-    border: 1px solid #061e37; }
+    border: 1px solid #061e37;
+    border: none; }
 
 .green-btn {
   color: white;
@@ -121,7 +123,8 @@
     color: white;
     text-decoration: none;
     background: #94d4c4;
-    border: 1px solid white; }
+    border: 1px solid white;
+    border: none; }
 
 .section {
   max-width: 1600px;
