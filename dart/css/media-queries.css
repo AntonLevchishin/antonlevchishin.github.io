@@ -13,4 +13,8 @@
     max-width: 516px; }
   .inner-title {
     margin-left: 40px;
-    margin-right: 40px; } }
+    margin-right: 40px; }
+  .slider-item {
+    width: 480px; }
+  .carousel-body {
+    margin-right: 20px; } }
