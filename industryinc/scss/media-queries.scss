@@ -1,0 +1,27 @@
+
+
+@media only screen and (max-width: 1366px) {
+
+  .header-section {
+
+    .header-left{
+      display: flex;
+      float: none;
+      justify-content: center;
+    }
+  
+    .header-right {
+      display: flex;
+      float: none;
+      justify-content: center;
+    }
+  }
+
+  .testimonial-section__box {
+    padding-left: 30px;
+  }
+
+  .testimonial-section__content {
+    width: 608px;
+  }
+}
