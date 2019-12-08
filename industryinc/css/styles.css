@@ -162,6 +162,12 @@ h6 {
   display: flex;
   width: 100%; }
 
+.owl-carousel .fadeIn .sb-white {
+  margin-top: 100px; }
+
+.owl-carousel .fadeIn .sb-dark {
+  margin-top: 100px; }
+
 .owl-carousel__wrap-img {
   position: relative;
   display: flex; }

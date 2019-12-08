@@ -7,7 +7,7 @@
     display: flex;
     float: none;
     justify-content: center; }
-  .testimonial-section__box {
+  .testimonial-section__wrap-carousel {
     padding-left: 30px; }
   .testimonial-section__content {
     width: 608px; } }
