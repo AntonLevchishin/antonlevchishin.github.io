@@ -185,7 +185,6 @@ h6 {
   display: flex; }
 
 .owl-carousel__main-img {
-  width: 100%;
   height: 777px; }
 
 .owl-carousel__wrap-text {
@@ -221,7 +220,7 @@ h6 {
     background: #ffc000; }
   .owl-carousel__caption-text :nth-child(1) {
     color: #081624;
-    margin-right: -23px; }
+    margin-right: -24px; }
   .owl-carousel__caption-text :nth-child(2) {
     padding-right: 14px; }
   .owl-carousel__caption-text :last-child {
