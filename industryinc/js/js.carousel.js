@@ -4,7 +4,7 @@ $(document).ready(function(){
     loop: true,
     nav: true,
     dots: false,
-    autoplay: true,
+    autoplay: false,
 		animateOut: 'fadeOut',
     animateIn: 'fadeIn',
   });
