@@ -199,6 +199,8 @@
 .main-login {
   background-color: #5e8eb0;
   padding-top: 12px; }
+  .main-login__social-network-section {
+    margin-top: 11px; }
   .main-login__section {
     flex-wrap: wrap;
     display: flex;
@@ -221,7 +223,7 @@
       margin-left: 24px;
       margin-top: 18px; }
       .main-login__login-section .login-form .login-name {
-        width: 150px;
+        max-width: 150px;
         height: 32px;
         margin-right: 17px;
         border-radius: .50rem;
@@ -229,7 +231,7 @@
         border: none;
         padding-bottom: 3px; }
       .main-login__login-section .login-form .login-password {
-        width: 150px;
+        max-width: 150px;
         height: 32px;
         border-radius: .50rem;
         margin-right: 13px;
@@ -247,7 +249,6 @@
         font-family: "Arial";
         vertical-align: bottom; }
   .main-login__mail-section {
-    width: 470px;
     height: 109px;
     background: linear-gradient(360deg, rgba(110, 162, 196, 0) 0%, #82badf 76%);
     border: 1px solid #d5d6d7;
@@ -271,6 +272,7 @@
         padding-bottom: 3px;
         margin-right: 10px; }
       .main-login__mail-section .mail-form .btn-mail {
+        margin-right: 18px;
         width: 104px;
         height: 31px;
         border-radius: .50rem;
@@ -320,12 +322,6 @@
         position: absolute;
         background: linear-gradient(180deg, #ffa663 48%, #ff6f03 85%);
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 10% 50%); }
-
-.social-network-section {
-  width: 473px;
-  margin-top: 11px; }
-  .social-network-section .network-link {
-    margin-right: 10px; }
 
 .main-footer {
   background-color: #4b7d9b; }

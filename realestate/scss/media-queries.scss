@@ -219,8 +219,219 @@
         }
     }
 
-
     //  <!-- Header menu End -->
 
+}
+
+
+@media only screen and (max-width: 540px) {
+
+    // <!-- Header menu Start //-->
+
+    .header-menu {
+        height: 113px;
+
+        &__item-wrap {
+
+            .item {
+
+                .menu-item {
+                    width: 70px;
+                    
+                    &:hover {
+                        width: 70px;
+                        height: 33px;
+
+                        &:after {
+                            width: 80px;
+                        }
+    
+                        &:before {
+                            width: 70px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .header-menu{
+        &__list {
+            font-size: 12px;
+        }
+    }
+
+    // <!-- Header menu End //-->
+
+
+    // <!-- input block start --> //
+
+    .input-block__office-block .content-img {
+        border: 2px solid #f2e8e8;
+    }
+
+    .input-block__office-block .content-img img {
+        width: 100%;
+    }
+
+    .input-block__office-block .text-block {
+        margin-left: 14px;
+    }
+
+    .input-block__office-block .text-block .img-text {
+        font-size: 19px;
+    }
+
+    .input-block__office-block .text-block .img-subtext {
+        margin-top: 11px;
+        margin-bottom: 0;
+    }
+
+    .input-block__office-block {
+        max-width: 411px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+    // <!-- input block End--> //
+
+
+        // <!-- Tabs  -->//.
+
+        .tab-content {
+            width: 280px;
+            height: 387px;
+
+
+            .subtext-top {
+                margin-left: 5px;
+            }
+
+            .info-text {
+                width: 76%;
+                font-size: 12px;
+                padding: 6px;
+                margin-left: 0px;
+            }
+
+            .radio-block {
+                margin-left: 21px;
+            }
+
+        }
+
+        .wrap-number .move-box {
+            margin-left: 0;
+        }
+        
+        // <!-- Tabs  -->//.
+
+
+//   <!-- Login block start -->//
+
+    .main-login {
+
+        &__login-section {
+            width: auto;
+            height: auto;
+            padding-top: 10px;
+
+
+
+            .login-text {
+                font-size: 17px;
+                margin: 0;
+                text-align: center;
+                display: block;
+            }
+
+            .login-form {
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                margin-left: 27px;
+                margin-right: 27px;
+
+                .login-name {
+                    margin-right: 0px;
+                    margin-top: 6px;
+                    margin-bottom: 8px;
+                }
+
+                .login-password {
+                    margin-bottom: 8px;
+                    margin-right: 0;
+                }
+
+                .btn-login {
+                    margin: 0 auto;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+
+        &__sign-up-section {
+
+            max-width: 175px;
+
+            .signup-text {
+                display: none;
+            }
+
+            .signup-btn-text  {
+                font-size: 20px;
+            }
+        }
+
+        &__mail-section {
+            padding-top: 0;
+
+            .mail-text {
+                font-size: 13px;
+                margin-left: 0px;
+                text-align: center;
+                display: block;
+                margin-top: 8px;
+            }
+
+            .mail-form {
+
+                text-align: center;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 8px;
+
+                .mail-item {
+                    width: auto;
+                    display: flex;
+                    flex-direction: column;
+                    height: auto;
+                    margin-right: 0px;
+                    margin-bottom: 10px;
+                }
+
+                .btn-mail {
+                    margin-right: 0;
+                }
+            }
+        }
+
+    }
+
+    #bootstrap-overrides-tabs .nav-link {
+        font-size: 20px;
+    }
+
+    #bootstrap-overrides-tabs .nav-item {
+        max-width: 137px;
+    }
+
+    .input-wrap {
+        margin-left: 50px;
+    }
+
+    //   <!-- Login block End -->//
 
 }
+

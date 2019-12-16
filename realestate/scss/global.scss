@@ -268,6 +268,10 @@
   background-color: #5e8eb0;
   padding-top: 12px;
 
+  &__social-network-section {
+    margin-top: 11px;
+  }
+
   &__section {
     flex-wrap: wrap;
     display: flex;
@@ -298,7 +302,7 @@
   
       .login-name {
   
-        width: 150px;
+        max-width: 150px;
         height: 32px;
         margin-right: 17px;
         border-radius: .50rem;
@@ -309,7 +313,7 @@
   
       .login-password {
   
-        width: 150px;
+        max-width: 150px;
         height: 32px;
         border-radius: .50rem;
         margin-right: 13px;
@@ -332,7 +336,7 @@
   }
 
   &__mail-section {
-    width: 470px;
+    // width: 470px;
     height: 109px;
     background: linear-gradient(360deg, rgba(110,162,196,0) 0%, rgba(130,186,223,1) 76%);
     border: 1px solid #d5d6d7;
@@ -363,7 +367,7 @@
       }
   
       .btn-mail {
-  
+        margin-right: 18px;
         width: 104px;
         height: 31px;
         border-radius: .50rem;
@@ -430,14 +434,6 @@
 }
 
 
-.social-network-section {
-  width: 473px;
-  margin-top: 11px;
-
-  .network-link {
-    margin-right: 10px;
-  }
-}
 // <!-- Login block End-->//.
 
 
