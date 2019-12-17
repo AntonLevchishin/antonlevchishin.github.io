@@ -193,17 +193,12 @@
 
 .image-block {
 
-  &__section {
-    flex-wrap: wrap;
-   
-  }
 
   &__body-wrap {
-    display: flex;
     margin-top: 21px;
-    width: 100%;
-    justify-content: space-between;
-  
+    display: grid;
+    grid-template-columns: 222px 222px 222px 222px;
+    grid-gap: 25px;
   } 
 
   .indentation {
@@ -211,8 +206,8 @@
   }
 
   &__image-wrap {
-    width: 222px;
-    height: 202px;
+    // width: 222px;
+    // height: 202px;
   
     
     .hall {

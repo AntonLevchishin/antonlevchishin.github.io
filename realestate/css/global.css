@@ -152,49 +152,44 @@
       color: #43515a;
       line-height: 1.692; }
 
-.image-block__section {
-  flex-wrap: wrap; }
-
 .image-block__body-wrap {
-  display: flex;
   margin-top: 21px;
-  width: 100%;
-  justify-content: space-between; }
+  display: grid;
+  grid-template-columns: 222px 222px 222px 222px;
+  grid-gap: 25px; }
 
 .image-block .indentation {
   margin-bottom: 31px; }
 
-.image-block__image-wrap {
+.image-block__image-wrap .hall {
   width: 222px;
-  height: 202px; }
-  .image-block__image-wrap .hall {
-    width: 222px;
-    height: 147px;
-    border: 6px solid #e1dede; }
-  .image-block__image-wrap .sub-block {
-    width: 222px;
-    height: 55px;
-    background-color: #4f8fb7;
-    border-bottom-right-radius: .50rem;
-    border-bottom-left-radius: .50rem;
-    display: flex; }
-    .image-block__image-wrap .sub-block .sub-block-text {
-      margin-left: 11px;
-      margin-top: 3px; }
-      .image-block__image-wrap .sub-block .sub-block-text .subtext-one {
-        font-size: 18px;
-        font-family: "MyriadProRegular";
-        color: white;
-        line-height: 1.167; }
-      .image-block__image-wrap .sub-block .sub-block-text .subtext-two {
-        font-size: 16px;
-        color: white;
-        font-family: "Arial"; }
-    .image-block__image-wrap .sub-block .magnifier {
-      width: 33px;
-      height: 27px;
-      margin-top: 14px;
-      margin-right: 12px; }
+  height: 147px;
+  border: 6px solid #e1dede; }
+
+.image-block__image-wrap .sub-block {
+  width: 222px;
+  height: 55px;
+  background-color: #4f8fb7;
+  border-bottom-right-radius: .50rem;
+  border-bottom-left-radius: .50rem;
+  display: flex; }
+  .image-block__image-wrap .sub-block .sub-block-text {
+    margin-left: 11px;
+    margin-top: 3px; }
+    .image-block__image-wrap .sub-block .sub-block-text .subtext-one {
+      font-size: 18px;
+      font-family: "MyriadProRegular";
+      color: white;
+      line-height: 1.167; }
+    .image-block__image-wrap .sub-block .sub-block-text .subtext-two {
+      font-size: 16px;
+      color: white;
+      font-family: "Arial"; }
+  .image-block__image-wrap .sub-block .magnifier {
+    width: 33px;
+    height: 27px;
+    margin-top: 14px;
+    margin-right: 12px; }
 
 .main-login {
   background-color: #5e8eb0;
