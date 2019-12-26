@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="css/fonts-collors.css" />
     <link rel="stylesheet" href="css/carouselone.css" />
     <link rel="stylesheet" href="css/media-queries.css" />
-
-
+    <link rel="stylesheet" href="css/slicknav.css" />
 
     <!-- owl.carousel -->
 
@@ -26,11 +25,21 @@
       rel="stylesheet"
     />
 
-    <script src="https://kit.fontawesome.com/936a744753.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/936a744753.js"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <!-- slicknav -->
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+    <!-- slicknav -->
+
   </head>
 
   <body>
-
     <!-- header-section-->
 
     <header class="header-section">
@@ -61,11 +70,11 @@
                 <div class="solutions">
                   <a class="header-left__item " href="">Solutions</a>
                   <ul class="header-left__sub-menu">
-                      <li class="header-left__content">
-                          <a class="header-left__subitem" href="">Elements</a>
-                      </li>
-                </ul>
-              </div>
+                    <li class="header-left__content">
+                      <a class="header-left__subitem" href="">Elements</a>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li class="header-left__item-menu">
                 <a class="header-left__item" href="">Blog</a>
@@ -76,6 +85,21 @@
             </ul>
           </nav>
 
+          <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li>Solutions
+                <ul>
+                    <li><a href="#">Elements</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <button class="search-switch">
+              <i class="fa fa-search"></i>
+            </button>
+        </ul>
+
           <div class="header-section__header-right header-right">
             <div class="header-right__header-info-box">
               <div class="header-right__hib-icon">
@@ -83,7 +107,9 @@
               </div>
               <div class="header-right__hib-text">
                 <h6 class="header-right__contact">+546 990221 123</h6>
-                <p class="header-right__sub-contact">contact@industryalinc.com</p>
+                <p class="header-right__sub-contact">
+                  contact@industryalinc.com
+                </p>
               </div>
             </div>
             <div class="header-right__header-info-box">
@@ -99,7 +125,6 @@
               <i class="fa fa-search"></i>
             </button>
           </div>
-
         </div>
       </div>
     </header>
@@ -273,6 +298,7 @@
               >
             </div>
           </div>
+
           <div class="features-section__img-block">
             <img
               class="features-section__logo"
@@ -293,7 +319,7 @@
               >
             </div>
           </div>
-          <div class="features-section__img-block">
+          <div class="features-section__img-block ">
             <img
               class="features-section__logo"
               src="img/features/3.jpg"
@@ -372,8 +398,8 @@
                       sollicitudin est. Nam ornare ipsum ac accumsan auctor.
                       Donec consequat arcu et commodo interdum. Vivamus posuere
                       lorem lacus.Lorem ipsum dolor sit amet, consecte-tur
-                      adipiscing elit. Quisque orci purus, sodales in est quis,
-                      blandit sollicitudin est.
+                      adipiscing elit. Sodales in est quis, blandit sollicitudin
+                      est.
                     </p>
                     <div class="testimonial-section__foot-icon-wrap">
                       <img
@@ -401,8 +427,8 @@
                       sollicitudin est. Nam ornare ipsum ac accumsan auctor.
                       Donec consequat arcu et commodo interdum. Vivamus posuere
                       lorem lacus.Lorem ipsum dolor sit amet, consecte-tur
-                      adipiscing elit. Quisque orci purus, sodales in est quis,
-                      blandit sollicitudin est.
+                      adipiscing elit. Sodales in est quis, blandit sollicitudin
+                      est.
                     </p>
                     <div class="testimonial-section__foot-icon-wrap">
                       <img
@@ -412,7 +438,9 @@
                       />
                       <div class="testimonial-section__name-wrap">
                         <h5 class="testimonial-section__name">Michael Smith</h5>
-                        <span class="testimonial-section__position-personal">CEO Industrial INC</span>
+                        <span class="testimonial-section__position-personal"
+                          >CEO Industrial INC</span
+                        >
                       </div>
                     </div>
                   </div>
@@ -425,7 +453,6 @@
     </section>
 
     <!-- Testimonial section-->
-
 
     <!-- Call to action section  -->
 
@@ -444,35 +471,44 @@
 
     <!-- Call to action section  -->
 
-
     <!-- Video section  -->
 
-<section class="video-section">
-  <div class="video-section__container container">
-    <div class="video-section__row row">
-      <div class="video-section__wrap-text">
-        <div class="video-section__text-block">
-          <h2 class="video-section__main-text">
-            We produce or supply Goods, & Services
-          </h2>
-          <p class="video-section__subtext">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur.
-          </p>
-          <a class="video-section__site-btn" href="">contact us</a>
+    <section class="video-section">
+      <div class="video-section__container container">
+        <div class="video-section__row row">
+          <div class="video-section__wrap-text">
+            <div class="video-section__text-block">
+              <h2 class="video-section__main-text">
+                We produce or supply Goods, & Services
+              </h2>
+              <p class="video-section__subtext">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                orci purus, sodales in est quis, blandit sollicitudin est. Nam
+                ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo
+                interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Quisque orci purus, sodales
+                in est quis, blandit sollicitudin est. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Quisque orci purus, sodales
+                in est quis, blandit sollicitudin est. Nam ornare ipsum ac
+                accumsan auctor. Donec consequat arcu et commodo interdum.
+                Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet,
+                consectetur.
+              </p>
+              <a class="video-section__site-btn" href="">contact us</a>
+            </div>
+          </div>
+          <div class="video-section__wrap-video">
+            <div class="video-section__video-box">
+              <a class="video-section__video-popup" href="">
+                <i class="fa fa-play"></i
+              ></a>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="video-section__wrap-video">
-        <div class="video-section__video-box">
-          <a class="video-section__video-popup" href="">
-          <i class="fa fa-play"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <!-- Video section  -->
-
 
     <!-- Footer section -->
 
@@ -481,13 +517,30 @@
         <div class="footer-section__row">
           <div class="footer-section__item-wrap">
             <div class="footer-section__item-block">
-              <img class="footer-section__logo-foot" src="img/logo-light.png" alt="#">
-              <p class="footer-section__subtext">Lorem ipsum dolor sit amet, consec-tetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. </p>
+              <img
+                class="footer-section__logo-foot"
+                src="img/logo-light.png"
+                alt="#"
+              />
+              <p class="footer-section__subtext">
+                Lorem ipsum dolor sit amet, consec-tetur adipiscing elit.
+                Quisque orci purus, sodales in est quis, blandit sollicitudin
+                est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu
+                et commodo interdum.
+              </p>
               <div class="footer-section__social">
-                <a class="footer-section__link" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="footer-section__link" href=""><i class="fab fa-twitter"></i></a>
-                <a class="footer-section__link" href=""><i class="fab fa-dribbble"></i></a>
-                <a class="footer-section__link" href=""><i class="fab fa-behance"></i></a>
+                <a class="footer-section__link" href=""
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a class="footer-section__link" href=""
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a class="footer-section__link" href=""
+                  ><i class="fab fa-dribbble"></i
+                ></a>
+                <a class="footer-section__link" href=""
+                  ><i class="fab fa-behance"></i
+                ></a>
               </div>
             </div>
           </div>
@@ -496,7 +549,7 @@
             <ul class="footer-section__item-list">
               <li><a href="">Jobs Vacancies</a></li>
               <li><a href="">Client Testimonials</a></li>
-              <li><a href="">Green  Energy</a></li>
+              <li><a href="">Green Energy</a></li>
               <li><a href="">Chemical Research</a></li>
               <li><a href="">Oil Extractions</a></li>
               <li><a href="">About our Work</a></li>
@@ -507,7 +560,7 @@
             <ul class="footer-section__item-list">
               <li><a href="">Metal Industry</a></li>
               <li><a href="">Agricultural Engineering</a></li>
-              <li><a href="">Green  Energy</a></li>
+              <li><a href="">Green Energy</a></li>
               <li><a href="">Chemical Research</a></li>
               <li><a href="">Oil Extractions</a></li>
               <li><a href="">Manufactoring</a></li>
@@ -517,24 +570,24 @@
             <h2 class="footer-section__main-text">Contact Us</h2>
             <div class="footer-section__info-box">
               <div class="footer-section__fib-icon">
-                <img src="img/icons/map-marker.png" alt="">
+                <img src="img/icons/map-marker.png" alt="" />
               </div>
               <div class="footer-section__fib-text">
-                <p>Main Str, no 23 NY,<br>New York PK 23589</p>
+                <p>Main Str, no 23 NY,<br />New York PK 23589</p>
               </div>
             </div>
             <div class="footer-section__info-box">
               <div class="footer-section__fib-icon">
-                <img src="img/icons/phone.png" alt="">
+                <img src="img/icons/phone.png" alt="" />
               </div>
               <div class="footer-section__fib-text">
-                <p>+546 990221 123<br>contact@industryalinc.com</p>
+                <p>+546 990221 123<br />contact@industryalinc.com</p>
               </div>
             </div>
             <form class="footer-section__footer-search">
-							<input type="text" placeholder="Search">
-							<button><i class="fa fa-search"></i></button>
-						</form>
+              <input type="text" placeholder="Search" />
+              <button><i class="fa fa-search"></i></button>
+            </form>
           </div>
         </div>
       </div>
@@ -542,7 +595,8 @@
         <div class="footer-bottom__container container">
           <div class="footer-bottom__row row">
             <div class="footer-bottom__copyright">
-              Copyright ©2019 All rights reserved | This template is made <br> with <i class="far fa-heart"></i> by Colorlib
+              Copyright ©2019 All rights reserved | This template is made <br />
+              with <i class="far fa-heart"></i> by Colorlib
             </div>
             <div class="footer-bottom__footer-menu-block">
               <ul class="footer-bottom__footer-menu">
@@ -568,10 +622,12 @@
       </div>
     </footer>
 
-
     <!-- Footer section -->
 
-    <script src="js/jquery.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/js.carousel.js"></script>
   </body>
