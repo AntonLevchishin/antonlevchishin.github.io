@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "node-sass": "^4.12.0",
-    "owl.carousel": "^2.3.4"
-  },
-  "scripts": {
-    "scss": "node-sass -w scss -o css"
-  }
-}
