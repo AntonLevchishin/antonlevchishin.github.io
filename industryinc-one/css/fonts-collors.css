@@ -1,0 +1,37 @@
+.container {
+  max-width: 1176px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+html,
+body {
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased; }
+
+h1 {
+  font-size: 70px; }
+
+h2 {
+  font-size: 38px; }
+
+h3 {
+  font-size: 30px; }
+
+h4 {
+  font-size: 24px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16px; }

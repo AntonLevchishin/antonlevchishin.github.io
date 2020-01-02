@@ -1,0 +1,152 @@
+@media only screen and (max-width: 1568px) {
+  .header-section .header-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    .header-section .header-left__site-nav-menu {
+      display: flex;
+      justify-content: center;
+      order: 1; }
+    .header-section .header-left__site-logo {
+      display: flex;
+      justify-content: center;
+      float: none;
+      margin-bottom: 20px; }
+    .header-section .header-left__wrap-item {
+      justify-content: center;
+      float: none; }
+  .header-section .header-right {
+    justify-content: center; }
+    .header-section .header-right__search-switch {
+      width: 60px;
+      height: 54px;
+      border-radius: 50%;
+      font-size: 22px;
+      margin-top: 10px; }
+  .header-section__site-navbar {
+    display: flex;
+    flex-direction: column; }
+  .testimonial-section__wrap-carousel {
+    padding-left: 30px;
+    padding-right: 10px; } }
+
+@media only screen and (max-width: 1260px) {
+  .container {
+    max-width: 960px; }
+  .services-section__subtext {
+    max-width: 260px; }
+  .testimonial-section__wrap-carousel {
+    padding-left: 30px;
+    padding-right: 10px; }
+  .testimonial-section__bg {
+    display: none; }
+  .testimonial-section__box {
+    max-width: 740px;
+    margin: 0 auto; }
+  .testimonial-section__row {
+    background: #17172d; }
+  .footer-section__item-wrap {
+    width: 35%; }
+  .footer-section__row {
+    justify-content: center; }
+  .footer-section .footer-bottom__row {
+    justify-content: center; }
+  .footer-section .footer-bottom__footer-menu {
+    padding-right: 0px; }
+  #carouselone .owl-next {
+    width: 60px;
+    height: 60px;
+    font-size: 30px; }
+  #carouselone .owl-prev {
+    width: 60px;
+    height: 60px;
+    font-size: 30px; }
+  .owl-carousel__caption-text {
+    font-size: 60px; } }
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    max-width: 720px; }
+  .video-section__wrap-text {
+    flex: none;
+    max-width: fit-content; }
+  .video-section__wrap-video {
+    margin-top: 55px;
+    flex: none;
+    max-width: none;
+    width: 100%; }
+  .video-section__video-box {
+    height: 500px; }
+  .services-section__wrap-item {
+    width: 50%; }
+  .services-section__subtext {
+    max-width: 260px; }
+  .features-section__img-block {
+    width: 45%;
+    padding-right: 14px;
+    padding-left: 15px; }
+    .features-section__img-block:last-child:nth-child(odd) {
+      margin-top: 19px;
+      width: 94%; } }
+
+@media only screen and (max-width: 800px) {
+  .container {
+    max-width: 540px; }
+  .services-section__subtext {
+    max-width: 100%; }
+  .services-section__wrap-item {
+    width: 100%; }
+  .cta-section__row {
+    justify-content: center; }
+  .cta-section__lg-right {
+    margin-top: 45px;
+    flex: none;
+    max-width: none; }
+  .features-section__img-block {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 15px; }
+    .features-section__img-block:last-child:nth-child(odd) {
+      margin-top: 0px;
+      width: 100%; }
+  .footer-section__item-wrap {
+    justify-content: center; }
+    .footer-section__item-wrap:first-child {
+      width: 100%; }
+    .footer-section__item-wrap:last-child {
+      width: 100%; } }
+
+@media only screen and (max-width: 665px) {
+  .container {
+    max-width: 100%; }
+  .header-section {
+    display: flex;
+    flex-direction: column; }
+    .header-section__header-right {
+      display: none !important; }
+    .header-section .header-left__site-nav-menu {
+      display: none; }
+    .header-section .slicknav_menu {
+      display: block; }
+    .header-section__top {
+      display: flex; }
+  #menu {
+    display: none; }
+  .owl-carousel__caption-text {
+    font-size: 55px; }
+  .owl-carousel__wrap-text {
+    left: 10%; }
+  #carouselone .owl-next {
+    width: 40px;
+    height: 40px;
+    font-size: 24px; }
+  #carouselone .owl-prev {
+    width: 40px;
+    height: 40px; }
+  .testimonial-section__wrap-carousel {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .footer-section__item-wrap {
+    justify-content: center;
+    width: 100%; } }
