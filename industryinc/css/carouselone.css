@@ -1,0 +1,64 @@
+#carouselone .owl-prev {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  top: calc( 50% - 42px);
+  left: 0;
+  font-size: 40px;
+  color: #081624;
+  background: #fff;
+  -webkit-transition: all .4s;
+  transition: all .4s; }
+  #carouselone .owl-prev:hover {
+    color: #fff;
+    background: #ffc000; }
+
+#carouselone .owl-next {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  top: calc( 50% - 42px);
+  right: 0;
+  font-size: 40px;
+  color: #081624;
+  background: #fff;
+  -webkit-transition: all .4s;
+  transition: all .4s; }
+  #carouselone .owl-next:hover {
+    color: #fff;
+    background: #ffc000; }
+
+#carouseltwo img {
+  width: auto;
+  margin: 0 auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  cursor: pointer; }
+  #carouseltwo img:hover {
+    filter: grayscale(0%); }
+
+#carouselthree .owl-prev {
+  width: 8px;
+  height: 8px;
+  border-radius: 15px;
+  margin-right: 12px;
+  background: #fff; }
+  #carouselthree .owl-prev:active {
+    background: #ffc000; }
+  #carouselthree .owl-prev:focus {
+    background: #ffc000;
+    outline: none; }
+
+#carouselthree .owl-next {
+  width: 8px;
+  height: 8px;
+  border-radius: 15px;
+  margin-right: 12px;
+  background: #fff; }
+  #carouselthree .owl-next:active {
+    background: #ffc000; }
+  #carouselthree .owl-next:focus {
+    background: #ffc000;
+    outline: none; }
