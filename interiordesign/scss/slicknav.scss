@@ -1,0 +1,53 @@
+@import 'core';
+@import 'theme';
+
+/*-- slick-nav-menu --*/
+
+.slicknav_nav { 
+	.slicknav_row {
+		padding: 10px 20px;
+	}
+}
+
+.slicknav_nav {
+	a {
+		padding: 5px 20px;
+	}
+}
+
+
+.slicknav_menu {
+	display:none;
+	background: none;
+	width: 120px;
+
+	.slicknav_nav {
+		color: rgba(100%, 50%, 0%, 0.1);
+	}
+}
+
+.slicknav_nav {
+
+	.slicknav_arrow {
+		font-size: 1em;
+		margin: 0 0 0 3em;
+}
+}
+
+
+.slick-nav-menu {
+	display:none;
+}
+
+@media screen and (max-width: 768px) {
+		#menu {
+		display:block;
+	}
+	
+	.slicknav_menu {
+		display:block;
+	}
+
+}
+							
+/*-- slick-nav-menu --*/
