@@ -1,6 +1,5 @@
 @import "fonts-color";
 
-
 .section {
   max-width: 966px;
   margin: 0 auto;
@@ -9,7 +8,6 @@
 // <!-- Header top Start -->//.
 
 .header {
-
   background-color: #4b83a6;
   width: 100%;
 
@@ -23,7 +21,7 @@
     padding-top: 16px;
     color: $main-color-text;
     background: radial-gradient(ellipse at center, #eeeeee -270%, rgba(238, 238, 238, 0) 76%);
-    
+
     .logo-img {
       vertical-align: baseline;
     }
@@ -52,107 +50,105 @@
 }
 
 
-  // <!-- Header top End -->//.
+// <!-- Header top End -->//.
 
 
-  // <!-- Header menu Start -->//.
+// <!-- Header menu Start -->//.
 
-  .header-menu {
+.header-menu {
   background-color: #d7d7d7;
   border-bottom: 4px solid #4b83a6;
   height: 63px;
 
-    &__section {
-      display: flex;
-      justify-content: space-between;
-      font-size: $medium-size;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 500;
-    }
+  &__section {
+    display: flex;
+    justify-content: space-between;
+    font-size: $medium-size;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
 
-    &__list {
-      margin-top: 10px;
-    }
+  &__list {
+    margin-top: 10px;
+  }
 
-    &__item-wrap {
-      list-style: none;
-      display: flex;
-      padding: 0;
-      margin: 0;
-      height: 100%;
+  &__item-wrap {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 100%;
 
-      .item {
-        text-decoration: none;
-        color: inherit;
+    .item {
+      text-decoration: none;
+      color: inherit;
 
-        .menu-item {
+      .menu-item {
+        width: $size-menu;
+        text-align: center;
+        color: rgb(58, 83, 98);
+        line-height: 40px;
+        position: relative;
+
+
+        &:hover {
           width: $size-menu;
-          text-align: center;
-          color: rgb(58, 83, 98);
-          line-height: 40px;
-          position: relative;
+          height: 52px;
+          background: linear-gradient(360deg, rgba(67, 118, 149, 1) 0%, rgba(86, 139, 172, 1) 21%);
+          border-top-left-radius: 9px;
+          border-top-right-radius: 9px;
+          margin: 0 auto;
+          cursor: pointer;
+          color: white;
 
 
-          &:hover {
+          &:after {
+            border-top: #2a5671 solid 5px;
+            border-right: transparent solid 5px;
+            border-left: transparent solid 5px;
+            width: $size-menu + 10px;
+            left: -5px;
+            z-index: 1;
+            @include hover-menu();
+          }
+
+          &:before {
+            border-top: rgba(67, 118, 149, 1) solid 5px;
             width: $size-menu;
-            height: 52px;
-            background: linear-gradient(360deg, rgba(67,118,149,1) 0%, rgba(86,139,172,1) 21%);
-            border-top-left-radius: 9px;
-            border-top-right-radius: 9px;
-            margin: 0 auto;
-            cursor: pointer;
-            color: white;
-           
-            
-            &:after {
-              border-top: #2a5671 solid 5px;
-              border-right: transparent solid 5px;
-              border-left: transparent solid 5px;
-              width: $size-menu + 10px;
-              left: -5px;
-              z-index: 1;
-              @include hover-menu();
-            }
-            
-            &:before {
-              border-top: rgba(67,118,149,1) solid 5px;     
-              width: $size-menu;
-              z-index: 2;
-              @include hover-menu();
-            }
+            z-index: 2;
+            @include hover-menu();
           }
         }
       }
     }
-
-    &__login-block {
-      margin-top: 20px;
-      margin-bottom: 13px;
-
-      .menu-btn {
-        text-decoration: none;
-        color: rgb(58, 83, 98);
-      }
-      
-      .separation {
-        margin-left: 5px;
-        margin-right: 5px;
-      }
-    }
   }
 
+  &__login-block {
+    margin-top: 20px;
+    margin-bottom: 13px;
 
-  // <!-- Header menu end -->//.
+    .menu-btn {
+      text-decoration: none;
+      color: rgb(58, 83, 98);
+    }
+
+    .separation {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+}
+
+// <!-- Header menu end -->//.
 
 
 // <!-- Home Start -->//.
 
 .main-home {
   width: 100%;
-  background: linear-gradient(180deg, rgba(194,242,237,0.2049194677871149) 0%, rgba(194,242,237,1) 85%);
+  background: linear-gradient(180deg, rgba(194, 242, 237, 0.2049194677871149) 0%, rgba(194, 242, 237, 1) 85%);
 
   &__section {
-
     display: flex;
     justify-content: space-between;
     padding-bottom: 21px;
@@ -180,11 +176,10 @@
       font-family: "Arial";
       color: rgb(67, 81, 90);
       line-height: 1.692;
-      
+
     }
   }
 }
-
 
 // <!-- Home end -->//.
 
@@ -192,29 +187,24 @@
 // <!-- Image block start -->//.
 
 .image-block {
-
-
   &__body-wrap {
     margin-top: 21px;
     display: grid;
     grid-template-columns: 222px 222px 222px 222px;
     grid-gap: 25px;
-  } 
+  }
 
   .indentation {
     margin-bottom: 31px;
   }
 
   &__image-wrap {
-    // width: 222px;
-    // height: 202px;
-  
-    
     .hall {
       width: 222px;
       height: 147px;
       border: 6px solid #e1dede;
     }
+
     .sub-block {
       width: 222px;
       height: 55px;
@@ -222,25 +212,25 @@
       border-bottom-right-radius: .50rem;
       border-bottom-left-radius: .50rem;
       display: flex;
-  
+
       .sub-block-text {
-  
         margin-left: 11px;
         margin-top: 3px;
-        
+
         .subtext-one {
           font-size: 18px;
           font-family: "MyriadProRegular";
           color: rgb(255, 255, 255);
           line-height: 1.167;
         }
-  
+
         .subtext-two {
           font-size: 16px;
           color: rgb(255, 255, 255);
           font-family: "Arial";
         }
       }
+
       .magnifier {
         width: 33px;
         height: 27px;
@@ -251,10 +241,7 @@
   }
 }
 
-
-
 // <!-- Image block end -->//.
-
 
 
 // <!-- Login block start -->//.
@@ -271,32 +258,31 @@
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-   }
+  }
 
-   &__login-section {
+  &__login-section {
     width: 470px;
     height: 109px;
-    background: linear-gradient(360deg, rgba(110,162,196,0) 0%, rgba(130,186,223,1) 76%);
+    background: linear-gradient(360deg, rgba(110, 162, 196, 0) 0%, rgba(130, 186, 223, 1) 76%);
     border: 1px solid #d5d6d7;
     padding-top: 14px;
     border-radius: .50rem;
     margin-right: 26px;
-  
+
     .login-text {
-  
       font-size: $large-size;
       font-family: "Arial";
       color: $main-color-text;
       line-height: 0.875;
       margin-left: 24px;
     }
-  
+
     .login-form {
       margin-left: 24px;
       margin-top: 18px;
-  
+
       .login-name {
-  
+
         max-width: 150px;
         height: 32px;
         margin-right: 17px;
@@ -305,9 +291,9 @@
         border: none;
         padding-bottom: 3px;
       }
-  
+
       .login-password {
-  
+
         max-width: 150px;
         height: 32px;
         border-radius: .50rem;
@@ -316,13 +302,14 @@
         border: none;
         padding-bottom: 3px;
       }
+
       .btn-login {
         width: 89px;
         height: 32px;
         border-radius: .50rem;
         border: 3px solid #d5d6d7;
         color: $main-color-text;
-        background: linear-gradient(180deg, rgba(106,178,220,1) 10%, rgba(105,176,219,0) 100%);
+        background: linear-gradient(180deg, rgba(106, 178, 220, 1) 10%, rgba(105, 176, 219, 0) 100%);
         font-size: 16px;
         font-family: "Arial";
         vertical-align: bottom;
@@ -331,27 +318,25 @@
   }
 
   &__mail-section {
-    // width: 470px;
     height: 109px;
-    background: linear-gradient(360deg, rgba(110,162,196,0) 0%, rgba(130,186,223,1) 76%);
+    background: linear-gradient(360deg, rgba(110, 162, 196, 0) 0%, rgba(130, 186, 223, 1) 76%);
     border: 1px solid #d5d6d7;
     padding-top: 16px;
     border-radius: .50rem;
-  
+
     .mail-text {
-  
       font-size: 20px;
       font-family: "Arial";
       color: $main-color-text;
       line-height: 1.05;
       margin-left: 30px;
     }
+
     .mail-form {
       margin-left: 21px;
       margin-top: 19px;
-  
+
       .mail-item {
-  
         width: 310px;
         height: 32px;
         border-radius: .50rem;
@@ -360,7 +345,7 @@
         padding-bottom: 3px;
         margin-right: 10px;
       }
-  
+
       .btn-mail {
         margin-right: 18px;
         width: 104px;
@@ -368,7 +353,7 @@
         border-radius: .50rem;
         border: 3px solid #d5d6d7;
         color: $main-color-text;
-        background: linear-gradient(180deg, rgba(106,178,220,1) 10%, rgba(105,176,219,0) 100%);
+        background: linear-gradient(180deg, rgba(106, 178, 220, 1) 10%, rgba(105, 176, 219, 0) 100%);
         font-size: 16px;
         font-family: "Arial";
       }
@@ -378,13 +363,13 @@
   &__sign-up-section {
     width: 470px;
     height: 46px;
-    background: linear-gradient(360deg, rgba(110,162,196,0) 0%, rgba(130,186,223,1) 76%);
+    background: linear-gradient(360deg, rgba(110, 162, 196, 0) 0%, rgba(130, 186, 223, 1) 76%);
     border: 1px solid #d5d6d7;
     border-radius: .50rem;
     position: relative;
     margin-top: 11px;
     margin-bottom: 14px;
-  
+
     .signup-text {
       display: block;
       font-size: 22px;
@@ -394,9 +379,8 @@
       margin-left: 48px;
       margin-top: 11px;
     }
-  
+
     .signup-btn-text {
-  
       display: block;
       font-size: 22px;
       font-family: "Arial";
@@ -408,10 +392,10 @@
       z-index: 1;
       pointer-events: none;
     }
-  
+
     .link-wrapper {
       display: block;
-  
+
       .tape {
         bottom: 0px;
         width: 171px;
@@ -421,13 +405,12 @@
         border-top-right-radius: .50rem;
         border-bottom-right-radius: .50rem;
         position: absolute;
-        background: linear-gradient(180deg, rgba(255,166,99,1) 48%, rgba(255,111,3,1) 85%);
+        background: linear-gradient(180deg, rgba(255, 166, 99, 1) 48%, rgba(255, 111, 3, 1) 85%);
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 10% 50%);
       }
     }
   }
 }
-
 
 // <!-- Login block End-->//.
 
@@ -441,34 +424,31 @@
     padding-top: 21px;
     display: flex;
     justify-content: space-between;
-
   }
 
   &__block-headline {
-
     width: 130px;
-  
+
     .text-headline {
       @include text-footer-headline ();
-  
     }
+
     .block-list {
-  
       padding-left: 0px;
       margin-top: 21px;
-  
+
       .wrap-link {
         text-decoration: none;
         list-style: none;
         color: #e3e9ed;
-  
+
         .list-item {
           -webkit-transition: all 0.5s ease;
           transition: all 0.5s ease;
           font-size: 13px;
           font-family: "Arial";
           line-height: 1.692;
-  
+
           &:hover {
             margin-left: 5px;
           }
@@ -480,50 +460,37 @@
   &__costamer-block {
     width: 332px;
     height: 168px;
-  
-  
+
     .text-headline {
       @include text-footer-headline ();
     }
+
     .costamer-text {
       font-size: 13px;
       font-family: "Arial";
       color: rgb(255, 255, 255);
     }
-  
+
     .costamer-subtext {
       font-family: "ArialBold";
     }
   }
 
-
   &__small-logo-block {
-
     color: $main-color-text;
-    .small-logo {
-  
-    }
-  
+
     .footer-logo-text {
-  
       display: block;
       margin-top: -20px;
       margin-left: 18px;
     }
-  
+
     .footer-logo-subtext {
       margin-left: 14px;
       margin-top: 39px;
     }
   }
-  
 }
-
-
-
-
-
-
 
 // <!-- Footer end-->//.
 
@@ -531,22 +498,21 @@
 // <!-- Footer Carousel  -->//.
 
 #bootstrap-overrides-costamer {
-
   .carousel-indicators {
     display: none;
   }
-  
+
   .carousel-control {
     background-image: none;
-    text-shadow: 0 1px 3px rgba(0,0,0,.6);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .6);
   }
-  
+
   .icon-prev {
     top: -17px;
     margin-left: 230px;
     color: #4b7d9b;
     position: relative;
-  
+
     &:before {
       content: "";
       width: 16px;
@@ -558,7 +524,7 @@
       bottom: 15px;
       top: -1px;
     }
-  
+
     &:after {
       content: "";
       border-left: 3px solid #4b7d9b;
@@ -571,12 +537,12 @@
       top: 3px;
     }
   }
-  
+
   .icon-next {
     top: -50px;
     color: #4b7d9b;
     position: relative;
-  
+
     &:before {
       content: "";
       width: 16px;
@@ -587,7 +553,7 @@
       top: 32px;
       right: 74px;
     }
-  
+
     &:after {
       content: "";
       border-left: 3px solid #4b7d9b;
@@ -598,14 +564,12 @@
       position: absolute;
       right: 79px;
       top: 36px;
-          }
-      }
+    }
   }
-  
-  .bootstrap-custom-bg-transparent {
+}
+
+.bootstrap-custom-bg-transparent {
   background-color: transparent !important;
-  }
-  
-  // <!-- Footer Carousel  -->//.
+}
 
-
+// <!-- Footer Carousel  -->//.

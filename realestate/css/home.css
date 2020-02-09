@@ -10,8 +10,11 @@
     grid-gap: 20px; }
     .main-staff__staff-container .staff-item {
       border: 2px solid #e1dede; }
+      .main-staff__staff-container .staff-item .container {
+        padding-left: 0px;
+        padding-right: 0px; }
       .main-staff__staff-container .staff-item img {
-        width: 218px;
+        width: 100%;
         height: 160px; }
 
 .font img {
