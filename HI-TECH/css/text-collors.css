@@ -1,0 +1,201 @@
+/*---------------- colors start -----------------*/
+/*---------------- colors end -----------------*/
+/*---------------- btn start -----------------*/
+.btn-explore-transparent {
+  text-transform: uppercase;
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: none;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 14px 40px; }
+  .btn-explore-transparent:hover {
+    background-color: #fff;
+    border: 2px solid none;
+    color: #515769;
+    transition-duration: 0.3s;
+    text-decoration: none; }
+
+.btn-explore-grey {
+  text-transform: uppercase;
+  color: #fff;
+  border: 2px solid #515769;
+  background-color: #515769;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 14px 40px; }
+  .btn-explore-grey:hover {
+    background-color: #17bed2;
+    border: 2px solid #17bed2;
+    color: #fff;
+    transition-duration: 0.3s;
+    text-decoration: none; }
+
+.btn-pricing {
+  text-transform: uppercase;
+  color: #515769;
+  border: 2px solid none;
+  background-color: #f3f4f5;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 14px 40px; }
+  .btn-pricing:hover {
+    background-color: #17bed2;
+    border: 2px solid none;
+    color: #fff;
+    transition-duration: 0.3s;
+    text-decoration: none; }
+
+/*---------------- btn end -----------------*/
+/*---------------- Text start -----------------*/
+.about__wrap-item h2 {
+  font-weight: 700;
+  color: #515769;
+  line-height: 1.4;
+  margin: 0 0 15px; }
+
+.about__wrap-item p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #a6a7aa;
+  margin-bottom: 15px; }
+
+.about__wrap-item img {
+  max-width: 100%;
+  height: auto; }
+
+.about__choose-left h2 {
+  font-weight: 700;
+  color: #515769;
+  line-height: 1.4;
+  margin: 0 0 15px; }
+
+.about__choose-left p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #a6a7aa;
+  margin-bottom: 15px; }
+
+.products__text-wrap h2 {
+  font-weight: 700;
+  color: #515769;
+  line-height: 1.4;
+  margin: 0 0 15px; }
+
+.products__text-wrap p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #a6a7aa;
+  margin-bottom: 15px; }
+
+.products__block-item img {
+  max-width: 100%;
+  height: auto; }
+
+.products__block-item h4 a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #515769;
+  line-height: 1.4;
+  margin: 0 0 15px;
+  text-decoration: none; }
+  .products__block-item h4 a:hover {
+    color: #a6a7aa; }
+
+.products__block-item h4 span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #bfc1c7;
+  text-transform: uppercase; }
+
+.products__block-item p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #a6a7aa;
+  margin-bottom: 15px; }
+
+.pricing__block h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #515769;
+  line-height: 1.4;
+  margin: 0 0 15px;
+  text-decoration: none; }
+  .pricing__block h2 span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #bfc1c7;
+    text-transform: uppercase; }
+
+.pricing__block p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #a6a7aa;
+  margin-bottom: 15px; }
+
+.work__text h2 {
+  font-weight: 700;
+  color: #515769;
+  line-height: 1.4;
+  margin: 0 0 15px; }
+
+.work__text p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #a6a7aa;
+  margin-bottom: 15px; }
+
+.services__text h2 {
+  font-weight: 700;
+  color: #515769;
+  line-height: 1.4;
+  margin: 0 0 15px; }
+
+.services__text p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #a6a7aa;
+  margin-bottom: 15px; }
+
+.services__block .info h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #515769;
+  line-height: 1.4;
+  margin: 0 0 15px;
+  text-decoration: none; }
+
+.services__block .info p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #a6a7aa;
+  margin-bottom: 15px; }
+
+.contact__item h4 a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #515769;
+  line-height: 1.4;
+  margin: 0 0 15px;
+  text-decoration: none; }
+  .contact__item h4 a:hover {
+    color: #a6a7aa; }
+
+.contact__item h4 span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #bfc1c7;
+  text-transform: uppercase; }
+
+.contact__item p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #a6a7aa;
+  margin-bottom: 15px; }
+
+.footer-list li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #515769; }
+
+/*---------------- Text End -----------------*/

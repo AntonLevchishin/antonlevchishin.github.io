@@ -1,0 +1,5 @@
+#accordionExample .card-header {
+  padding: 30px; }
+  #accordionExample .card-header .btn-link {
+    text-decoration: none;
+    font-size: 22px; }

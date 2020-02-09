@@ -1,0 +1,384 @@
+@import "text-collors";
+@import "collapse";
+
+body {
+  font-family: "Hind", sans-serif;
+}
+
+.content-lg {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.content-md {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.row-space-1 {
+  margin-right: -1px;
+  margin-left: -1px;
+}
+
+.section-seperator {
+  border-bottom: 1px solid #edf0f2;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*---------------- header-menu start -----------------*/
+
+.header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  -webkit-transition: 0.4s 0s;
+  -o-transition: 0.4s 0s;
+  transition: 0.4s 0s;
+
+  &__navbar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  &__wrap-logo {
+    width: 150px;
+    height: 88px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__menu-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-top: 17px;
+
+    li {
+      position: relative;
+
+      &:hover {
+        ::before {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+
+      ::before {
+        content: "";
+        position: absolute;
+        width: 9px;
+        height: 2px;
+        background: #17bed2;
+        transition-duration: 0.4s;
+        top: 28px;
+        left: 0px;
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 55px;
+        padding: 20px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+/*---------------- header-menu End -----------------*/
+
+/*---------------- about start -----------------*/
+
+.about {
+  &__bg-choose {
+    background: $color-bg-lgrey;
+  }
+}
+
+/*---------------- about End -----------------*/
+
+/*---------------- products start -----------------*/
+
+.products {
+  &__block-item {
+    .block-link {
+      position: relative;
+      font-size: 13px;
+      font-weight: 600;
+      color: #81848f;
+      text-transform: uppercase;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-lgrey;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 9px;
+        height: 2px;
+        background: #17bed2;
+        top: 8px;
+        left: 79px;
+      }
+    }
+  }
+}
+
+/*---------------- products end -----------------*/
+
+/*---------------- pricing start -----------------*/
+
+.pricing {
+  background: $color-bg-lgrey;
+
+  .row-space-1 {
+    margin-right: -1px;
+    margin-left: -1px;
+
+    [class*="col-"] {
+      padding-left: 1px;
+      padding-right: 1px;
+    }
+  }
+
+  &__wrap-block {
+    padding: 70px 45px 70px 45px;
+    background: #fff;
+    margin-top: 50px;
+
+    ul {
+      padding: 0;
+      margin-bottom: 50px;
+
+      li {
+        position: relative;
+        font-size: 13px;
+        color: #81848f;
+        padding-left: 20px;
+        margin-bottom: 10px;
+        list-style: none;
+
+        &::before {
+          content: "";
+          position: absolute;
+          width: 9px;
+          height: 2px;
+          background: #17bed2;
+          top: 9px;
+          left: 0px;
+        }
+      }
+    }
+  }
+}
+
+.pricing-active {
+  padding-top: 110px;
+  padding-bottom: 110px;
+  margin-top: 10px;
+}
+
+/*---------------- pricing start -----------------*/
+
+
+/*---------------- Work start -----------------*/
+
+.work {
+  &__block-wrap {
+    .item-one {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__trigger {}
+
+  &__overlay {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: " ";
+      top: 0;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      background: rgba(0, 0, 0, .5);
+      cursor: pointer;
+      opacity: 0;
+      -webkit-transition: 0.3s 0s;
+      -o-transition: 0.3s 0s;
+      transition: 0.3s 0s;
+    }
+
+    &:hover {
+      &::before {
+        opacity: 0.9;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+/*---------------- Work End -----------------*/
+
+
+/*---------------- Services start -----------------*/
+
+.services {
+  background: $color-bg-lgrey;
+
+  &__block {
+    background: $color-white;
+    height: 252px;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+      .interior-block {
+        bottom: 30px;
+
+        .element {
+          i {
+            opacity: 0;
+            -webkit-transition: 0.4s 0s;
+            -o-transition: 0.4s 0s;
+            transition: 0.4s 0s;
+          }
+        }
+      }
+    }
+
+    .interior-block {
+      position: absolute;
+      bottom: 0px;
+      -webkit-transition: 0.4s 0s;
+      -o-transition: 0.4s 0s;
+      transition: 0.4s 0s;
+      padding: 50px 50px 50px 50px;
+    }
+  }
+
+  &__color-bg {
+    background-color: $color-bg-turquoise;
+
+    .interior-block {
+      .element {
+        i {
+          color: $color-white;
+        }
+      }
+
+      .info {
+        h4 {
+          color: $color-white;
+        }
+
+        p {
+          color: $color-white;
+        }
+      }
+    }
+  }
+}
+
+.row-space-1>[class*=col-] {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.line-bottom {
+  padding-bottom: 2px;
+}
+
+.icon {
+  display: block;
+  font-size: 30px;
+  color: #999caa;
+  margin-bottom: 30px;
+}
+
+/*---------------- Services end -----------------*/
+
+
+/*---------------- contact start -----------------*/
+
+.contact {
+  &__item {
+    li {
+      font-size: 13px;
+      color: #81848f;
+      margin-bottom: 10px;
+
+      i {
+        color: $color-bg-turquoise;
+      }
+    }
+  }
+}
+
+.map {
+  position: relative;
+
+  &:hover {
+    .map__overlay {
+      opacity: 0;
+    }
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+}
+
+
+/*---------------- contact end -----------------*/
+
+/*---------------- FOOTER Start -----------------*/
+
+.footer-list {
+  li {
+    margin-bottom: 15px;
+
+    a {
+      &:hover {
+        text-decoration: none;
+        color: $color-lgrey;
+      }
+    }
+  }
+}
+
+.content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  img {
+    width: 100px;
+    height: auto;
+  }
+}
+
+/*---------------- FOOTER end -----------------*/

@@ -1,0 +1,226 @@
+/*---------------- colors start -----------------*/
+
+$color-white: #fff;
+$color-grey: #515769;
+$color-lgrey: #a6a7aa;
+$color-bg-btnlg: #f3f4f5;
+$color-bg-turquoise: #17bed2;
+$color-bg-lgrey: #fafafa;
+
+/*---------------- colors end -----------------*/
+
+/*---------------- btn start -----------------*/
+
+@mixin btn-base($color-text, $color-border, $bg-color) {
+  text-transform: uppercase;
+  color: $color-text;
+  border: 2px solid $color-border;
+  background-color: $bg-color;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 14px 40px;
+}
+
+@mixin btn-hover($hover-color-bg, $color-border, $hover-color-text) {
+  &:hover {
+    background-color: $hover-color-bg;
+    border: 2px solid $color-border;
+    color: $hover-color-text;
+    transition-duration: 0.3s;
+    text-decoration: none;
+  }
+}
+
+.btn-explore-transparent {
+  @include btn-base($color-white, $color-white, none);
+  @include btn-hover($color-white, none, $color-grey);
+}
+
+.btn-explore-grey {
+  @include btn-base($color-white, $color-grey, $color-grey);
+  @include btn-hover($color-bg-turquoise, $color-bg-turquoise, $color-white);
+}
+
+.btn-pricing {
+  @include btn-base($color-grey, none, $color-bg-btnlg);
+  @include btn-hover($color-bg-turquoise, none, $color-white);
+}
+
+/*---------------- btn end -----------------*/
+
+/*---------------- Text start -----------------*/
+
+@mixin h2-text() {
+  font-weight: 700;
+  color: #515769;
+  line-height: 1.4;
+  margin: 0 0 15px;
+}
+
+@mixin h4-text() {
+  font-size: 22px;
+  font-weight: 700;
+  color: #515769;
+  line-height: 1.4;
+  margin: 0 0 15px;
+  text-decoration: none;
+}
+
+@mixin span-text() {
+  font-size: 14px;
+  font-weight: 400;
+  color: #bfc1c7;
+  text-transform: uppercase;
+}
+
+@mixin p-text() {
+  font-size: 15px;
+  font-weight: 400;
+  color: #a6a7aa;
+  margin-bottom: 15px;
+}
+
+@mixin footer-text-a() {
+  font-size: 16px;
+  font-weight: 500;
+  color: #515769;
+}
+
+@mixin img-settings() {
+  max-width: 100%;
+  height: auto;
+}
+
+.about__wrap-item {
+  h2 {
+    @include h2-text();
+  }
+
+  p {
+    @include p-text();
+  }
+
+  img {
+    @include img-settings();
+  }
+}
+
+.about__choose-left {
+  h2 {
+    @include h2-text();
+  }
+
+  p {
+    @include p-text();
+  }
+}
+
+.products__text-wrap {
+  h2 {
+    @include h2-text();
+  }
+
+  p {
+    @include p-text();
+  }
+}
+
+.products__block-item {
+  img {
+    @include img-settings();
+  }
+
+  h4 {
+    a {
+      @include h4-text();
+
+      &:hover {
+        color: $color-lgrey;
+      }
+    }
+
+    span {
+      @include span-text();
+    }
+  }
+
+  p {
+    @include p-text();
+  }
+}
+
+.pricing__block {
+  h2 {
+    @include h4-text();
+
+    span {
+      @include span-text();
+    }
+  }
+
+  p {
+    @include p-text();
+  }
+}
+
+.work__text {
+  h2 {
+    @include h2-text();
+  }
+
+  p {
+    @include p-text();
+  }
+}
+
+.services__text {
+  h2 {
+    @include h2-text();
+  }
+
+  p {
+    @include p-text();
+  }
+}
+
+.services__block {
+  .info {
+    h4 {
+      @include h4-text();
+    }
+
+    p {
+      @include p-text();
+    }
+  }
+}
+
+.contact__item {
+  h4 {
+    a {
+      @include h4-text();
+
+      &:hover {
+        color: $color-lgrey;
+      }
+    }
+
+    span {
+      @include span-text();
+    }
+  }
+
+  p {
+    @include p-text();
+  }
+}
+
+.footer-list {
+  li {
+    a {
+      @include footer-text-a();
+    }
+  }
+}
+
+/*---------------- Text End -----------------*/
