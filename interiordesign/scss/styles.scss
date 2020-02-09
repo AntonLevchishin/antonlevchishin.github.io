@@ -34,13 +34,13 @@ a {
 
       .site-navbar-top {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-      } 
+      }
     }
 
     .site-navbar {
+      .site-logo {
+        font-weight: 200;
 
-        .site-logo {
-          font-weight: 200;
         a {
           &:hover {
             color: $heading-text-white;
@@ -51,9 +51,7 @@ a {
   }
 
   .site-headline-text {
-
     .headline-text {
-
       height: calc(50vh);
 
       .sub-text {
@@ -62,7 +60,7 @@ a {
         color: rgba(255, 255, 255, 0.7);
         letter-spacing: .2em;
       }
-  
+
       h1 {
         font-size: 5rem;
         font-weight: 700;
@@ -73,9 +71,8 @@ a {
 }
 
 .wrap-widget {
-
   a {
-    
+
     &:link {
       color: $heading-text-white;
     }
@@ -84,8 +81,8 @@ a {
 }
 
 
-           /*-- Dropdown menu --*/
-    
+/*-- Dropdown menu --*/
+
 .site-menu {
   margin: 0;
   padding: 0;
@@ -93,7 +90,6 @@ a {
   &>li {
     display: inline-block;
     padding: 10px 5px;
-
 
     &>a {
       padding: 10px 11px;
@@ -153,7 +149,7 @@ a {
         &:hover {
           background: $site-menu-hover-gray;
         }
-  
+
         &>a {
           padding: 10px 10px;
           color: #343a40;
@@ -167,9 +163,7 @@ a {
 }
 
 .has-children {
-
   .btn-dropdown {
-  
     &:before {
       transform: rotate(266deg);
       top: 33%;
@@ -178,7 +172,6 @@ a {
   }
 
   &>a {
-
     &:before {
       position: absolute;
       content: "\e313";
@@ -194,7 +187,6 @@ a {
 }
 
 .arrow-top {
-
   &:before {
     border: 10px transparent solid;
     border-bottom: 10px rgb(255, 255, 255) solid;
@@ -210,12 +202,9 @@ a {
   }
 }
 
-           /*-- Dropdown menu --*/
+/*-- Dropdown menu --*/
 
-                
 /*----- background section -----*/
-
-
 
 
 //<!-- site section -->//
@@ -227,7 +216,6 @@ a {
   padding-left: 0px;
 
   .media {
-
     .icon {
       position: relative;
       color: $flaticon-black;
@@ -241,21 +229,18 @@ a {
         background-color: $flaticon-bg-before;
         left: -15px;
         top: -5px;
-        z-index: -1; }
+        z-index: -1;
+      }
     }
   }
-  
 }
 
 //<!-- site section -->//
 
 
-
-
 //<!-- site section -->//
 
 .img-border {
-
   &:before {
     position: absolute;
     content: "";
@@ -269,13 +254,11 @@ a {
 
 
 .site-block {
-
   .row-items {
     height: calc(50% - 15px);
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 
     .wrap-content {
-
       .feature {
         -webkit-transition: .3s all ease-in-out;
         -o-transition: .3s all ease-in-out;
@@ -292,16 +275,15 @@ a {
         font-size: 1.2rem;
         font-weight: 400;
       }
-  
+
       &:hover {
-        
         a {
           color: $flaticon-hover;
           top: -8px;
         }
       }
     }
-  
+
     a {
       color: $flaticon-main;
     }
@@ -311,12 +293,9 @@ a {
 //<!-- site section -->//
 
 
-
-
 //<!-- site section -->//
 
-.project-entry  {
-
+.project-entry {
   overflow: hidden;
   display: block;
 
@@ -332,9 +311,10 @@ a {
       &:hover {
         -webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
-        transform: scale(1.05); }
+        transform: scale(1.05);
+      }
     }
-   }
+  }
 
   h3 {
     font-size: 18px;
@@ -348,9 +328,6 @@ a {
 }
 
 //<!-- site section -->//
-
-
-
 
 
 //<!-- footer section -->//
@@ -381,7 +358,6 @@ a {
     list-style: none;
 
     li {
-      
       :hover {
         color: $heading-text-white;
       }
@@ -395,9 +371,7 @@ a {
       a {
 
         &:hover {
-
           .text {
-
             .heading {
               color: $heading-text-white;
             }
@@ -441,7 +415,7 @@ a {
     background-color: $flaticon-main;
     border-color: $flaticon-main;
     border: 2px solid transparent;
-    
+
     &:hover {
       background-color: $footer-bg;
       border-color: $flaticon-main;
@@ -464,37 +438,34 @@ a {
 //<!-- footer section -->//
 
 
-
 //<!-- Media Queries -->//
 
 @media only screen and (max-width: 768px) {
 
   // <!-- .background section --> //
- 
-  .anchor-dropdown {
-   justify-content: space-between;
-  }
- 
-   .wrap-site-navigation {
-     display: none;
-   }
- 
-   .site-background {
- 
-     .site-headline-text {
- 
-       .headline-text {
- 
-         h1 {
-           font-size: 3rem;
-           font-weight: 700;
-           color: $heading-text-white;
-         }
-       }
-     }
-   }
- }
 
-     // <!-- .background section --> //
- 
- //<!-- Media Queries -->//
+  .anchor-dropdown {
+    justify-content: space-between;
+  }
+
+  .wrap-site-navigation {
+    display: none;
+  }
+
+  .site-background {
+    .site-headline-text {
+      .headline-text {
+
+        h1 {
+          font-size: 3rem;
+          font-weight: 700;
+          color: $heading-text-white;
+        }
+      }
+    }
+  }
+}
+
+// <!-- .background section --> //
+
+//<!-- Media Queries -->//
