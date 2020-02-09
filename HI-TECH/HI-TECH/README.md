@@ -1,2 +1,0 @@
-# HI-TECH
- HI-TECH
