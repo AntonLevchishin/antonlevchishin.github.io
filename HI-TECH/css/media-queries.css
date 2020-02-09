@@ -34,7 +34,9 @@
 
 @media only screen and (max-width: 768px) {
   .services__block {
-    height: 255px; } }
+    height: 255px; }
+  .pricing .pricing-active {
+    margin-top: 40px; } }
 
 @media only screen and (max-width: 576px) {
   .work__block-wrap {
