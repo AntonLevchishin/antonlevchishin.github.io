@@ -43,39 +43,27 @@ $small-size: 15px;
   padding: 22px 40px 22px 40px;
   border-radius: 7px;
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
-  
+  border: none;
+  cursor: pointer;
 }
 
 .black-btn {
   @include base-btn ($color-main, $color-secondary, none);
   margin-right: 30px;
-  // color: $color-main;
-  // background: $color-secondary;
   @include hover-color ($color-main, $bg-black);
-  // &:hover {
-  //   color: $color-main;
-  //   text-decoration: none;
-  // }
 }
 
 .white-btn {
   @include base-btn  ($color-secondary, $color-main, none);
-  // color: $color-secondary;
-  // background: $color-main;
   @include hover-color ($color-secondary, $bg-white);
-  // &:hover {
-  //   color: $color-secondary;
-  //   text-decoration: none;
-  // }
 }
 
 .green-btn {
   @include base-btn ($color-main, $color-bg-green, none);
-  // color: $color-main;
-  // background: $color-bg-green;
   @include hover-color ($color-main, $bg-green);
-  // &:hover {
-  //   color: $color-main;
-  //   text-decoration: none;
-  // }
+}
+
+.button-send {
+  @include base-btn ($color-main, $color-bg-green, none);
+  @include hover-color ($color-main, $bg-green);
 }
