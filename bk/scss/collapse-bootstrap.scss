@@ -124,7 +124,8 @@ button {
           &::before {
             position: absolute;
             content: '';
-            left: -0.15rem;
+            top: -4px;
+            left: 0.45rem;
             right: 0.0625rem;
             width: 0.625rem;
             height: 0.625rem;
