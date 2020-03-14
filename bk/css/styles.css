@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -117,8 +116,8 @@ button {
       transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
       position: relative;
       margin: 0;
-      width: 24px;
-      height: 24px;
+      width: 21px;
+      height: 21px;
       background: #282936;
       border-radius: 1.625rem; }
       button.learn-more .circle .icon {
@@ -153,8 +152,9 @@ button {
       right: 0;
       bottom: 0;
       padding: 6px 0;
-      margin: 0 0 0 25px;
+      margin: 0 0 0 15px;
       color: #282936;
+      font-size: 14px;
       font-weight: 700;
       line-height: 1.6;
       text-align: center;
@@ -282,6 +282,8 @@ body {
     font-size: 16px;
     font-weight: 700;
     color: #676767; }
+  .main-block__news-item .news-text .wrap-btn {
+    text-align: end; }
 
 .main-block__description-section {
   height: 600px; }
