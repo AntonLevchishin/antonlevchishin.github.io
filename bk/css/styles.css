@@ -110,7 +110,7 @@ button {
   font-size: inherit;
   font-family: inherit; }
   button.learn-more {
-    width: 12rem;
+    width: 11rem;
     height: auto; }
     button.learn-more .circle {
       transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -163,7 +163,7 @@ button {
     width: 100%; }
     button:hover .circle .icon.arrow {
       background: #fff;
-      transform: translate(1rem, 0); }
+      transform: translate(0.6rem, 0); }
   button:hover .button-text {
     color: #fff; }
 
@@ -202,7 +202,8 @@ body {
       border-radius: 2px; }
       .menu_right__list-item li:hover .menu_right__dropdown {
         visibility: visible;
-        opacity: 1; }
+        opacity: 1;
+        margin: 0; }
       .menu_right__list-item li:hover i {
         color: #0492ca;
         animation: fas .7s; }
@@ -225,11 +226,12 @@ body {
     width: 100%;
     top: 100%;
     left: 0;
+    margin-top: 30px;
     padding-top: 3px;
     z-index: 20;
     visibility: hidden;
     opacity: 0;
-    transition: all .4s;
+    transition: all .3s;
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.29); }
     .menu_right__dropdown li {
       width: 100%;
@@ -269,7 +271,7 @@ body {
       transform: scale(1.1); }
   .main-block__news-item .news-logo {
     float: left;
-    width: 203px;
+    display: flex;
     margin-right: 20px;
     overflow: hidden;
     border-radius: 3px; }

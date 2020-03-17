@@ -94,7 +94,7 @@ button {
   font-family: inherit;
 
   &.learn-more {
-    width: 12rem;
+    width: 11rem;
     height: auto;
 
     .circle {
@@ -162,7 +162,7 @@ button {
       .icon {
         &.arrow {
           background: $white;
-          transform: translate(1rem, 0);
+          transform: translate(0.6rem, 0);
         }
       }
     }

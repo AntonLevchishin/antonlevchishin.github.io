@@ -62,7 +62,7 @@ button {
   font-size: inherit;
   font-family: inherit; }
   button.learn-more {
-    width: 12rem;
+    width: 11rem;
     height: auto; }
     button.learn-more .circle {
       transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -115,6 +115,6 @@ button {
     width: 100%; }
     button:hover .circle .icon.arrow {
       background: #fff;
-      transform: translate(1rem, 0); }
+      transform: translate(0.6rem, 0); }
   button:hover .button-text {
     color: #fff; }
