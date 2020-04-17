@@ -114,9 +114,11 @@ a {
     .content-block {
       background: #F9F9F9;
       border-radius: 4px;
+      padding-bottom: 23px;
 
       .img-block {
         margin-bottom: 20px;
+        background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 14.66%);
 
         img {
           display: block;
@@ -142,6 +144,15 @@ a {
           font-weight: normal;
           font-size: 14px;
           line-height: 20px;
+        }
+
+        .read-more {
+          color: #FF0303;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 19px;
+          letter-spacing: 0.05em;
         }
       }
     }
