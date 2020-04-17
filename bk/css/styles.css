@@ -160,7 +160,7 @@ a:hover {
 .main-news__bk-rating {
   background-color: #F3F5F6;
   box-shadow: 0px 0px 20px rgba(150, 150, 150, 0.1);
-  height: 1762px; }
+  height: 800px; }
 
 /*----- Main end-----*/
 /*----- Footer-----*/
@@ -168,5 +168,12 @@ a:hover {
   background: #171920;
   color: #A2A3A6;
   font-size: 12px; }
+  .footer__adulthood .eighteen {
+    color: aliceblue;
+    font-size: 17px;
+    width: 21px;
+    height: 18px;
+    background-color: red;
+    border-radius: 4px; }
   .footer__renouncement {
     border-top: 1px solid grey; }

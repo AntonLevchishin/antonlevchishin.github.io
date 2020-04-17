@@ -238,7 +238,7 @@ a {
   &__bk-rating {
     background-color: $bg-raiting-bk;
     box-shadow: 0px 0px 20px rgba(150, 150, 150, 0.1);
-    height: 1762px;
+    height: 800px;
   }
 }
 
@@ -252,7 +252,19 @@ a {
   color: $color-text-footer;
   font-size: 12px;
 
+  &__adulthood {
+    .eighteen {
+      color: aliceblue;
+      font-size: 17px;
+      width: 21px;
+      height: 18px;
+      background-color: red;
+      border-radius: 4px;
+    }
+  }
+
   &__renouncement {
     border-top: 1px solid grey;
   }
+
 }
