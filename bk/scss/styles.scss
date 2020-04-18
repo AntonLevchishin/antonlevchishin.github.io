@@ -183,15 +183,15 @@ a {
 
             &::before {
               content: "";
-              width: 40px;
+              width: 30px;
               height: 2px;
               display: inline-block;
               background-color: red;
               position: absolute;
-              transition: 0.3s;
+              transition: 0.2s;
               transform: rotate(45deg);
-              left: -28px;
-              top: -9px;
+              left: -19px;
+              top: -5px;
               visibility: hidden;
               opacity: 0;
             }
